@@ -1,3 +1,42 @@
-body{
+header, nav, footer,section, aside, article{
+    display:block;
+    padding: 16px;
+    border: 1px solid black;
+    text-align: center;
+}
+.header{
+    background-color:pink;
+    font-size: large;
+}
+.Nav{
+    background-color:lightblue;
+
+}
+.footer{
+    background-color: orange;
+}
+.section{
+    background-color: beige;
+    display: inline-block;
+    width: 50%;
+
+
+
+}
+.Aside{
+    background-color:silver;
+    display: inline-block;
+    width: 35%;
+    height: 140px;
+}
+.heading{
+    height: 40%;
     background-color: pink;
+
+}
+article{
+    height: 100px;
+    width: auto;
+    background-color: rgb(176, 129, 227);;
+    
 }
